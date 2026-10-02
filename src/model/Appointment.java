@@ -4,7 +4,8 @@ package model;
  * Appointment class to represent a scheduled consultation between a Patient and a Doctor.
  * Demonstrates object association and state management.
  * 
- * @author Anshika (Reg No: 24BEC10146)
+ * Course: Programming in Java
+ * @author Anshika Jain (Reg No: 24BEC10146)
  */
 public class Appointment {
     private String appointmentId;

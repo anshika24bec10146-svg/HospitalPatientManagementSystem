@@ -2,6 +2,8 @@
 title Push to GitHub - Hospital Patient Management System
 echo ===================================================================
 echo     Pushing Project to GitHub: anshika24bec10146-svg
+echo     Student: Anshika Jain (24BEC10146)
+echo     Course: Programming in Java - Flipped Course Project
 echo ===================================================================
 echo.
 echo Running: git push -u origin main

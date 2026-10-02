@@ -1,29 +1,44 @@
 # PROJECT REPORT
 ## HOSPITAL PATIENT MANAGEMENT SYSTEM (HPMS)
 
-**Course**: Object-Oriented Programming (Java)  
-**Evaluation**: Flipped Course Project / Experiment 13  
-**Student Name**: Anshika  
+**Course**: Programming in Java  
+**Evaluation**: Flipped Course Project  
+**Student Name**: Anshika Jain  
 **Registration Number**: 24BEC10146  
-**Department**: School of Electronics Engineering (SENSE) / School of Computer Science & Engineering (SCSE)  
-**Institution**: Vellore Institute of Technology (VIT)  
+**Department**: School of Electrical and Electronics Engineering (SEEE)  
+**Institution**: Vellore Institute of Technology (VIT), Bhopal  
 **GitHub Profile**: [https://github.com/anshika24bec10146-svg](https://github.com/anshika24bec10146-svg)  
 **Project Repository**: [https://github.com/anshika24bec10146-svg/HospitalPatientManagementSystem](https://github.com/anshika24bec10146-svg/HospitalPatientManagementSystem)  
-**Submission Date**: October 2026  
+**Submission Date**: 16 October 2026  
 
 ---
 
 ## 1. Cover Page
-- **Project Title**: Hospital Patient Management System (HPMS)
-- **Course Name**: Object-Oriented Programming with Java
-- **Academic Year**: 2025-2026
-- **Submitted By**: Anshika (Reg No: 24BEC10146)
-- **Affiliation**: Vellore Institute of Technology, India
+
+```text
+========================================================================================
+                          VELLORE INSTITUTE OF TECHNOLOGY, BHOPAL
+                   School of Electrical and Electronics Engineering (SEEE)
+                       
+                                  PROJECT REPORT
+                                        ON
+                     HOSPITAL PATIENT MANAGEMENT SYSTEM (HPMS)
+
+                      Course Name   : Programming in Java
+                      Academic Year : 2026-2027
+                      Evaluation    : Flipped Course Project
+                      
+                      Submitted By  : Anshika Jain
+                      Reg. Number   : 24BEC10146
+                      Affiliation   : Vellore Institute of Technology, Bhopal
+                      Submission    : 16 October 2026
+========================================================================================
+```
 
 ---
 
 ## 2. Introduction
-Hospitals and healthcare centers handle a significant influx of patients on a daily basis. Coordinating patient registrations, medical appointments, attending doctor allocations, and diagnosis records requires an efficient and reliable software system.
+Hospitals and outpatient healthcare centers handle a significant volume of patients on a daily basis. Coordinating patient registrations, medical appointments, attending doctor allocations, and diagnosis records requires an efficient and reliable software system.
 
 The **Hospital Patient Management System (HPMS)** is an object-oriented software system developed in Java. The project models real-world hospital entities (`Patient`, `Doctor`, and `Appointment`) and their interactions. It eliminates manual overheads, maintains accurate records without redundant data, and provides clear visibility into patient care histories.
 
@@ -52,7 +67,7 @@ The system implements three primary functional modules:
 - **Directory**: Maintain doctor profiles containing ID, name, specialization, department, consultation fee, and room number.
 - **Doctor Assignment**: Assign a primary attending physician to a patient through object referencing.
 
-### 4.3 Appointment Scheduling & Reporting (Experiment 13 Output)
+### 4.3 Appointment Scheduling & Reporting
 - **Appointment Booking**: Schedule appointments linking a specific patient and doctor with date, time slot, and clinical purpose.
 - **Patient Summary Report**: Generate a unified consultation summary displaying patient details, assigned doctor details, and scheduled appointments.
 - **Hospital Audit Report**: Generate aggregate metrics on total patients, active doctors, and scheduled consultations.
@@ -117,7 +132,7 @@ The project follows a standard 3-Tier Layered Architecture:
       |        |   (4) Assign Doctor to Patient                 |
       +--------+---> (5) Schedule Appointment                   |
       |        |   (6) Update Patient Diagnosis                 |
-      |        |   (7) Generate Patient Summary (Exp 13)        |
+      |        |   (7) Generate Patient Summary                 |
       |        |   (8) Save & Load Data Records                 |
       |        |   (9) Run Automated Validation Tests           |
                |                                                |
@@ -228,7 +243,7 @@ User                  Main               HospitalService          Patient       
 1. **Object-Oriented Inheritance (`Person -> Patient, Doctor`)**:
    - Both patients and doctors share personal identity fields (name, age, phone, gender). Creating an abstract base class `Person` eliminates code redundancy and adheres to the Don't Repeat Yourself (DRY) principle.
 2. **Avoidance of Static Variables for Object State**:
-   - As explicitly required by Experiment 13 guidelines, all patient attributes (ID, name, diagnosis, appointments) and doctor attributes are declared as instance variables. Static variables are only used for sequence counters (e.g., `patientCounter`) and constants.
+   - As required by the course project guidelines, all patient attributes (ID, name, diagnosis, appointments) and doctor attributes are declared as instance variables. Static variables are only used for sequence counters (e.g., `patientCounter`) and constants.
 3. **Direct Object References vs. Foreign Keys**:
    - Rather than merely storing string IDs for doctors inside `Patient`, `Patient` holds a direct `Doctor` object reference (`assignedDoctor`). This demonstrates true object association in OOP.
 4. **Package Modularity**:
@@ -253,7 +268,7 @@ User                  Main               HospitalService          Patient       
 
 ## 10. Results & Execution Output
 
-### Sample 1: Patient Consultation Summary (Experiment 13 Expected Output)
+### Sample 1: Patient Consultation Summary
 ```text
 =======================================================
                PATIENT CONSULTATION SUMMARY            
@@ -314,7 +329,7 @@ Testing was conducted using both **Manual Exploratory Testing** and an **Automat
 | TC-06 | Reporting | Generate patient summary report | Report contains patient, doctor & appt info | **PASS** |
 | TC-07 | Persistence | Save records to text file | Files created and written successfully | **PASS** |
 
-**Overall Result**: 7/7 Tests Passed (100.0% Success Rate).
+**Overall Result**: 19/19 Assertions Passed (100.0% Success Rate).
 
 ---
 
@@ -350,5 +365,5 @@ Testing was conducted using both **Manual Exploratory Testing** and an **Automat
 ## 15. References
 1. Herbert Schildt, *Java: The Complete Reference*, 12th Edition, McGraw-Hill Education.
 2. Oracle Java Documentation: [https://docs.oracle.com/javase/8/docs/api/](https://docs.oracle.com/javase/8/docs/api/)
-3. VIT Course Curriculum & Lab Manual for Object-Oriented Programming (Java).
+3. VIT Course Curriculum & Lab Manual for Programming in Java.
 4. GitHub Documentation & Markdown Guide: [https://docs.github.com/](https://docs.github.com/)

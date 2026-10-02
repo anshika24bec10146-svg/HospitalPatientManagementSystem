@@ -14,7 +14,8 @@ import service.HospitalService;
  * Complies with Section 3 ("Testing wherever applicable") of the
  * VITyarthi project guidelines.
  * 
- * @author Anshika (Reg No: 24BEC10146)
+ * Course: Programming in Java
+ * @author Anshika Jain (Reg No: 24BEC10146)
  */
 public class ValidationTest {
 
@@ -103,7 +104,7 @@ public class ValidationTest {
         System.out.println("\n=======================================================");
         System.out.println(String.format(" Test Results: %d/%d Tests Passed (%.1f%%)", 
                 testsPassed, totalTests, ((double) testsPassed / totalTests) * 100.0));
-        System.out.println("=======================================================\n");
+        System.out.println("=======================================================");
     }
 
     public static void main(String[] args) {

@@ -15,7 +15,8 @@ import java.util.List;
  * facilitating object interactions, diagnosis updates, assignments,
  * and comprehensive summary reporting.
  * 
- * @author Anshika (Reg No: 24BEC10146)
+ * Course: Programming in Java
+ * @author Anshika Jain (Reg No: 24BEC10146)
  */
 public class HospitalService {
     private List<Patient> patients;
@@ -112,7 +113,7 @@ public class HospitalService {
 
     /**
      * Updates diagnosis for an existing patient.
-     * Complies with Experiment 13 requirement.
+     * Complies with project requirements.
      */
     public boolean updatePatientDiagnosis(String patientId, String newDiagnosis) {
         Patient patient = findPatientById(patientId);
@@ -204,8 +205,7 @@ public class HospitalService {
 
     /**
      * Generates a single patient consultation summary report.
-     * Complies with Experiment 13 requirement:
-     * "generating a patient summary... report showing relationships between patients, doctors and appointments."
+     * Shows relationships between patients, doctors and appointments.
      */
     public String getPatientSummary(String patientId) {
         Patient patient = findPatientById(patientId);

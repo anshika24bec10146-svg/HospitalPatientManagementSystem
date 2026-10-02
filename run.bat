@@ -1,10 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
-title Hospital Patient Management System - Anshika (24BEC10146)
+title Hospital Patient Management System - Anshika Jain (24BEC10146)
 
 echo ===================================================================
 echo     HOSPITAL PATIENT MANAGEMENT SYSTEM (HPMS)
-echo     Student: Anshika  ^|  Registration No: 24BEC10146
+echo     Course: Programming in Java ^| Flipped Course Project
+echo     Student: Anshika Jain  ^|  Registration No: 24BEC10146 (SEEE)
+echo     Institution: Vellore Institute of Technology, Bhopal
 echo ===================================================================
 echo.
 

@@ -4,7 +4,8 @@ package model;
  * Doctor class representing medical professionals in the hospital.
  * Inherits common person traits from Person.java.
  * 
- * @author Anshika (Reg No: 24BEC10146)
+ * Course: Programming in Java
+ * @author Anshika Jain (Reg No: 24BEC10146)
  */
 public class Doctor extends Person {
     private String specialization;

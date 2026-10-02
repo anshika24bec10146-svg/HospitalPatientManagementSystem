@@ -1,8 +1,12 @@
 # Project Statement - Hospital Patient Management System (HPMS)
 
-**Course**: Object-Oriented Programming in Java (Flipped Course Project)  
-**Student Name**: Anshika  
+**Course**: Programming in Java  
+**Evaluation**: Flipped Course Project  
+**Student Name**: Anshika Jain  
 **Registration Number**: 24BEC10146  
+**Department**: School of Electrical and Electronics Engineering (SEEE)  
+**Institution**: Vellore Institute of Technology (VIT), Bhopal  
+**Submission Date**: 16 October 2026  
 **GitHub Profile**: [anshika24bec10146-svg](https://github.com/anshika24bec10146-svg)  
 **Repository**: [https://github.com/anshika24bec10146-svg/HospitalPatientManagementSystem](https://github.com/anshika24bec10146-svg/HospitalPatientManagementSystem)
 
@@ -53,7 +57,7 @@ The **Hospital Patient Management System (HPMS)** is a desktop-based console app
 - **Dynamic Doctor Assignment**: Bind a patient to a responsible doctor with object association rather than static references.
 - **Diagnosis Tracking**: Modify and log updated patient diagnoses over multiple visits.
 - **Appointment Scheduling System**: Schedule date-and-time slots for consultations with status lifecycle management (`Scheduled`, `Completed`, `Cancelled`).
-- **Comprehensive Patient Summary (Experiment 13 Standard)**: Multi-relational summary showing patient vitals, attending doctor details, and all linked appointments.
+- **Comprehensive Patient Summary**: Multi-relational summary showing patient vitals, attending doctor details, and all linked appointments.
 - **Hospital Analytics & Operational Audit**: Instant overview of patient load, doctor distribution, and appointment volume.
 - **Data Persistence**: Archive records into human-readable text files (`patients.txt` and `appointments.txt`) for persistent storage across sessions.
 - **Automated Validation Suite**: In-built test cases asserting object relationships, state changes, and business rules.

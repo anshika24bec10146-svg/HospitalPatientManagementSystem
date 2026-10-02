@@ -17,7 +17,8 @@ import java.util.List;
  * Demonstrates Java file handling (BufferedReader, BufferedWriter, File)
  * and error handling strategies.
  * 
- * @author Anshika (Reg No: 24BEC10146)
+ * Course: Programming in Java
+ * @author Anshika Jain (Reg No: 24BEC10146)
  */
 public class FileStorage {
     private static final String DATA_DIR = "data";

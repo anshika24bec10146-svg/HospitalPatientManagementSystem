@@ -5,7 +5,8 @@ package model;
  * Demonstrates inheritance and encapsulation by providing common attributes and methods
  * for both Patients and Doctors.
  * 
- * @author Anshika (Reg No: 24BEC10146)
+ * Course: Programming in Java
+ * @author Anshika Jain (Reg No: 24BEC10146)
  */
 public abstract class Person {
     // Common protected attributes accessible to subclasses

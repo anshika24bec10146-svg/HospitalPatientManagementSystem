@@ -8,12 +8,13 @@ import java.util.List;
  * Inherits common person attributes from Person.java.
  * Maintains diagnosis, assigned doctor reference, and appointment history.
  * 
- * Complies with Experiment 13 requirement:
+ * Complies with Flipped Course Project requirements:
  * - Patient ID, Name, Age, Diagnosis, Appointment information
  * - Object interaction with Doctor and Appointment classes
  * - No object-specific information stored in static variables
  * 
- * @author Anshika (Reg No: 24BEC10146)
+ * Course: Programming in Java
+ * @author Anshika Jain (Reg No: 24BEC10146)
  */
 public class Patient extends Person {
     private String diagnosis;

@@ -2,10 +2,11 @@
 
 [![Java Version](https://img.shields.io/badge/Java-8%2B-orange.svg)](https://www.oracle.com/java/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Student](https://img.shields.io/badge/Author-Anshika-green.svg)](https://github.com/anshika24bec10146-svg)
+[![Student](https://img.shields.io/badge/Author-Anshika%20Jain-green.svg)](https://github.com/anshika24bec10146-svg)
 [![RegNo](https://img.shields.io/badge/Reg%20No-24BEC10146-lightgrey.svg)](https://github.com/anshika24bec10146-svg)
+[![Department](https://img.shields.io/badge/Department-SEEE-blue.svg)](https://vitbhopal.ac.in/)
 
-An object-oriented Java application designed to manage hospital patient records, doctor allocations, appointment scheduling, and diagnosis tracking. Developed as part of the **VITyarthi Course Project / Lab Experiment 13 (Java Classes & Objects)**.
+An object-oriented Java application designed to manage hospital patient records, doctor allocations, appointment scheduling, and diagnosis tracking. Developed as part of the **VITyarthi Flipped Course Project — Programming in Java** at **Vellore Institute of Technology (VIT), Bhopal**.
 
 ---
 
@@ -31,7 +32,7 @@ Each patient maintains their **Patient ID, Name, Age, Diagnosis, and Appointment
 - **Appointment Scheduling**:
   - Book consultations between specific patients and doctors with date, time slot, and clinical purpose.
   - Appointment lifecycle states (`Scheduled`, `Completed`, `Cancelled`).
-- **Comprehensive Patient Summary Report (Exp 13)**:
+- **Comprehensive Patient Summary Report**:
   - Generates a multi-relational report displaying patient demographics, attending doctor details, and scheduled appointments.
 - **Hospital Audit & Analytics**:
   - High-level overview of total patients, active doctors, and pending appointments.
@@ -45,6 +46,7 @@ Each patient maintains their **Patient ID, Name, Age, Diagnosis, and Appointment
 ## 🛠️ Technologies & Tools Used
 
 - **Language**: Java (SE 8 or higher)
+- **Course**: Programming in Java
 - **Paradigm**: Object-Oriented Programming (OOP)
 - **Core Concepts Applied**:
   - *Encapsulation*: Private member variables with getters/setters and validation.
@@ -99,7 +101,12 @@ java -version
 javac -version
 ```
 
-### Option 1: Running from Terminal / Command Prompt
+### Option 1: Running with Included Script (Easiest)
+In File Explorer, open `HospitalPatientManagementSystem` and double-click **`run.bat`**.
+
+---
+
+### Option 2: Running from Terminal / Command Prompt
 
 1. **Clone or navigate to the project directory**:
    ```bash
@@ -127,7 +134,7 @@ javac -version
 
 ---
 
-### Option 2: Running in VS Code / Eclipse / IntelliJ IDEA
+### Option 3: Running in VS Code / Eclipse / IntelliJ IDEA
 
 1. Open the `HospitalPatientManagementSystem` folder in your IDE.
 2. Ensure the `src` folder is marked as a **Source Folder**.
@@ -149,7 +156,8 @@ The project includes an automated test class (`ValidationTest.java`) that verifi
 
 To execute the tests:
 - Select option `12` from the Main Menu in the CLI, **OR**
-- Run `java -cp bin test.ValidationTest` directly in terminal.
+- Run `java -cp bin test.ValidationTest` directly in terminal, **OR**
+- Double-click **`test.bat`**.
 
 ---
 
@@ -159,9 +167,10 @@ To execute the tests:
 ```text
 =================================================================
           HOSPITAL PATIENT MANAGEMENT SYSTEM (HPMS)              
-       VIT Course Project - Object-Oriented Programming (Java)   
-       Author: Anshika | Reg No: 24BEC10146                      
-       GitHub: https://github.com/anshika24bec10146-svg          
+      Course: Programming in Java | Flipped Course Project       
+      Author: Anshika Jain | Reg No: 24BEC10146 (SEEE)          
+      Institution: Vellore Institute of Technology, Bhopal       
+      GitHub: https://github.com/anshika24bec10146-svg          
 =================================================================
 
 ================== MAIN NAVIGATION MENU ==================
@@ -172,7 +181,7 @@ To execute the tests:
  5.  Update Patient Diagnosis
  6.  Schedule Doctor Appointment
  7.  View Scheduled Appointments
- 8.  Generate Patient Consultation Summary Report (Exp 13)
+ 8.  Generate Patient Consultation Summary Report
  9.  Generate Hospital Operational Audit Report
  10. Save All Records to Local File (Persistence)
  11. View Saved Records File Content
@@ -182,7 +191,7 @@ To execute the tests:
 Enter your choice [0-12]:
 ```
 
-### 2. Patient Summary Report Output (Experiment 13 Expected Output)
+### 2. Patient Summary Report Output
 ```text
 =======================================================
                PATIENT CONSULTATION SUMMARY            
@@ -211,11 +220,14 @@ Enter your choice [0-12]:
 
 ---
 
-## 🌐 GitHub Repository & Submission Details
+## 🌐 Submission & Author Details
 
-- **GitHub Profile**: [https://github.com/anshika24bec10146-svg](https://github.com/anshika24bec10146-svg)
-- **Repository Name**: `HospitalPatientManagementSystem`
-- **Target Repository URL**: `https://github.com/anshika24bec10146-svg/HospitalPatientManagementSystem`
-- **Student Name**: Anshika
+- **Student Name**: Anshika Jain
 - **Registration Number**: 24BEC10146
-- **Institution**: Vellore Institute of Technology (VIT)
+- **Department**: School of Electrical and Electronics Engineering (SEEE)
+- **Institution**: Vellore Institute of Technology (VIT), Bhopal
+- **Course**: Programming in Java
+- **Evaluation**: Flipped Course Project
+- **Submission Date**: 16 October 2026
+- **GitHub Profile**: [https://github.com/anshika24bec10146-svg](https://github.com/anshika24bec10146-svg)
+- **Repository URL**: [https://github.com/anshika24bec10146-svg/HospitalPatientManagementSystem](https://github.com/anshika24bec10146-svg/HospitalPatientManagementSystem)

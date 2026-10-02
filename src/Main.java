@@ -13,10 +13,12 @@ import java.util.Scanner;
  * Provides an interactive console interface for users to perform patient registration,
  * doctor assignments, appointment booking, diagnosis updates, and summary generation.
  * 
- * Course: Object-Oriented Programming (Java)
- * Project: VITyarthi Course Evaluation / Experiment 13
- * Student: Anshika
- * Registration No: 24BEC10146
+ * Course: Programming in Java
+ * Evaluation: Flipped Course Project
+ * Student Name: Anshika Jain
+ * Registration Number: 24BEC10146
+ * Department: School of Electrical and Electronics Engineering (SEEE)
+ * Institution: Vellore Institute of Technology (VIT), Bhopal
  * GitHub: https://github.com/anshika24bec10146-svg
  */
 public class Main {
@@ -96,9 +98,10 @@ public class Main {
     private static void printWelcomeHeader() {
         System.out.println("=================================================================");
         System.out.println("          HOSPITAL PATIENT MANAGEMENT SYSTEM (HPMS)              ");
-        System.out.println("       VIT Course Project - Object-Oriented Programming (Java)   ");
-        System.out.println("       Author: Anshika | Reg No: 24BEC10146                      ");
-        System.out.println("       GitHub: https://github.com/anshika24bec10146-svg          ");
+        System.out.println("      Course: Programming in Java | Flipped Course Project       ");
+        System.out.println("      Author: Anshika Jain | Reg No: 24BEC10146 (SEEE)          ");
+        System.out.println("      Institution: Vellore Institute of Technology, Bhopal       ");
+        System.out.println("      GitHub: https://github.com/anshika24bec10146-svg          ");
         System.out.println("=================================================================");
     }
 
@@ -111,7 +114,7 @@ public class Main {
         System.out.println(" 5.  Update Patient Diagnosis");
         System.out.println(" 6.  Schedule Doctor Appointment");
         System.out.println(" 7.  View Scheduled Appointments");
-        System.out.println(" 8.  Generate Patient Consultation Summary Report (Exp 13)");
+        System.out.println(" 8.  Generate Patient Consultation Summary Report");
         System.out.println(" 9.  Generate Hospital Operational Audit Report");
         System.out.println(" 10. Save All Records to Local File (Persistence)");
         System.out.println(" 11. View Saved Records File Content");
@@ -318,7 +321,7 @@ public class Main {
 
     // 8. Generate Patient Summary
     private static void handleGeneratePatientSummary() {
-        System.out.println("\n--- Generate Patient Summary Report (Experiment 13) ---");
+        System.out.println("\n--- Generate Patient Summary Report ---");
         System.out.print("Enter Patient ID (e.g. PAT-101): ");
         String patientId = scanner.nextLine().trim();
 

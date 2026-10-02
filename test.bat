@@ -1,10 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
-title Automated Validation Tests - HPMS (Anshika 24BEC10146)
+title Automated Validation Tests - HPMS (Anshika Jain 24BEC10146)
 
 echo ===================================================================
 echo     RUNNING AUTOMATED VALIDATION SUITE (HPMS)
-echo     Student: Anshika  ^|  Registration No: 24BEC10146
+echo     Course: Programming in Java ^| Flipped Course Project
+echo     Student: Anshika Jain  ^|  Registration No: 24BEC10146 (SEEE)
+echo     Institution: Vellore Institute of Technology, Bhopal
 echo ===================================================================
 echo.
 
