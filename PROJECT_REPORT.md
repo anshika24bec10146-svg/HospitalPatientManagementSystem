@@ -1,15 +1,15 @@
 # PROJECT REPORT
-## HOSPITAL PATIENT MANAGEMENT SYSTEM (HPMS)
+# HOSPITAL PATIENT MANAGEMENT SYSTEM (HPMS)
 
-**Course**: Programming in Java  
+**Course Name**: Programming in Java  
 **Evaluation**: Flipped Course Project  
 **Student Name**: Anshika Jain  
 **Registration Number**: 24BEC10146  
 **Department**: School of Electrical and Electronics Engineering (SEEE)  
 **Institution**: Vellore Institute of Technology (VIT), Bhopal  
+**Submission Date**: 16 October 2026  
 **GitHub Profile**: [https://github.com/anshika24bec10146-svg](https://github.com/anshika24bec10146-svg)  
 **Project Repository**: [https://github.com/anshika24bec10146-svg/HospitalPatientManagementSystem](https://github.com/anshika24bec10146-svg/HospitalPatientManagementSystem)  
-**Submission Date**: 16 October 2026  
 
 ---
 
@@ -20,65 +20,65 @@
                           VELLORE INSTITUTE OF TECHNOLOGY, BHOPAL
                    School of Electrical and Electronics Engineering (SEEE)
                        
-                                  PROJECT REPORT
-                                        ON
-                     HOSPITAL PATIENT MANAGEMENT SYSTEM (HPMS)
+                                      PROJECT REPORT
+                                            ON
+                         HOSPITAL PATIENT MANAGEMENT SYSTEM (HPMS)
 
-                      Course Name   : Programming in Java
-                      Academic Year : 2026-2027
-                      Evaluation    : Flipped Course Project
-                      
-                      Submitted By  : Anshika Jain
-                      Reg. Number   : 24BEC10146
-                      Affiliation   : Vellore Institute of Technology, Bhopal
-                      Submission    : 16 October 2026
+                          Course Name   : Programming in Java
+                          Academic Year : 2026-2027
+                          Evaluation    : Flipped Course Project
+                          
+                          Submitted By  : Anshika Jain (Reg No: 24BEC10146)
+                          Affiliation   : Vellore Institute of Technology, Bhopal
+                          Submission    : 16 October 2026
 ========================================================================================
 ```
 
 ---
 
 ## 2. Introduction
-Hospitals and outpatient healthcare centers handle a significant volume of patients on a daily basis. Coordinating patient registrations, medical appointments, attending doctor allocations, and diagnosis records requires an efficient and reliable software system.
+Hospitals and modern outpatient clinics experience a steady influx of patients requiring consultation, diagnosis, and treatment scheduling daily. Managing patient registrations, doctor directories, medical diagnoses, and appointment allocations demands an organized, error-free system. 
 
-The **Hospital Patient Management System (HPMS)** is an object-oriented software system developed in Java. The project models real-world hospital entities (`Patient`, `Doctor`, and `Appointment`) and their interactions. It eliminates manual overheads, maintains accurate records without redundant data, and provides clear visibility into patient care histories.
+The **Hospital Patient Management System (HPMS)** is an object-oriented software solution implemented in Java. The project accurately models real-world healthcare entities—**Patients**, **Doctors**, and **Appointments**—and their interactions. It eliminates manual overheads, avoids redundant data entries, and provides transparent visibility into patient histories and clinical consultations.
 
 ---
 
 ## 3. Problem Statement
-In traditional clinic environments, patient records and doctor schedules are frequently recorded using paper-based registers or fragmented spreadsheets. This approach presents several challenges:
-1. **Inefficient Data Cross-Referencing**: Inability to quickly link a patient's historical diagnoses with their attending specialist.
-2. **Scheduling Conflicts**: Overlapping appointments or misplaced appointment slots.
-3. **Redundant Data Entry**: Repeating patient demographics across multiple registers.
-4. **Lack of Instant Summaries**: Delay in generating a consolidated patient consultation summary during follow-up visits.
+In traditional hospital reception and clinic environments, patient records and doctor schedules are frequently maintained using physical registers or unlinked spreadsheets. This manual practice leads to significant operational challenges:
+1. **Inefficient Cross-Referencing**: Inability to quickly link a patient's historical diagnoses with their attending doctor.
+2. **Consultation & Scheduling Conflicts**: Misplaced appointments, overlapping consultation slots, and lack of doctor schedule visibility.
+3. **Redundant Data Entry**: Repetitive recording of demographic information across multiple files.
+4. **Delayed Summaries**: Time-consuming manual generation of patient consultation summaries during return visits.
 
-To resolve these challenges, HPMS provides a structured, modular Java solution enforcing clean encapsulation, inheritance, and object associations.
+HPMS resolves these challenges by providing a modular, object-oriented Java system that enforces encapsulation, class inheritance, defensive state validation, and clean object associations.
 
 ---
 
 ## 4. Functional Requirements
-The system implements three primary functional modules:
+The system is divided into three primary functional modules:
 
 ### 4.1 Patient Registration & Record Management
-- **Registration**: Register new patients with unique auto-generated IDs (`PAT-101`, `PAT-102`), capturing name, age, contact, blood group, diagnosis, and category (OPD/Emergency/Inpatient).
-- **Diagnosis Tracking**: Update patient diagnosis dynamically over subsequent consultations.
-- **Search & View**: Search patients by unique ID and display detailed patient vitals.
+- **Patient Registration**: Capture patient demographics (Name, Age, Gender, Phone, Blood Group, Patient Category) with automated ID allocation (`PAT-101`, `PAT-102`).
+- **Diagnosis Tracking**: Dynamically update and record clinical diagnoses over multiple visits.
+- **Patient Lookup & Registry Listing**: Retrieve detailed individual records or view the entire active patient directory.
 
 ### 4.2 Doctor & Department Management
-- **Directory**: Maintain doctor profiles containing ID, name, specialization, department, consultation fee, and room number.
-- **Doctor Assignment**: Assign a primary attending physician to a patient through object referencing.
+- **Doctor Directory**: Maintain comprehensive doctor profiles containing ID, name, specialization, department, room/cabin number, and consultation fee.
+- **Dynamic Doctor Assignment**: Bind an attending specialist to a patient through direct object association.
 
-### 4.3 Appointment Scheduling & Reporting
-- **Appointment Booking**: Schedule appointments linking a specific patient and doctor with date, time slot, and clinical purpose.
-- **Patient Summary Report**: Generate a unified consultation summary displaying patient details, assigned doctor details, and scheduled appointments.
-- **Hospital Audit Report**: Generate aggregate metrics on total patients, active doctors, and scheduled consultations.
+### 4.3 Appointment Scheduling & Summary Reporting
+- **Appointment Booking**: Schedule date-and-time slots connecting patients with specific attending physicians.
+- **Appointment Status Lifecycle**: Track consultation states (`Scheduled`, `Completed`, `Cancelled`).
+- **Patient Consultation Summary**: Generate a consolidated multi-relational report showing patient vitals, attending doctor details, and all linked appointments.
+- **Hospital Audit & Analytics**: High-level statistical report covering total patient count, active medical staff, and pending consultations.
 
 ---
 
 ## 5. Non-Functional Requirements
-1. **Performance**: All lookup and object management operations execute in near-constant time (\(O(1)\) to \(O(N)\) within internal collections) with instantaneous console response.
-2. **Reliability & Data Integrity**: Object-specific variables are strictly managed per instance (no static variable leakage for patient-specific state).
-3. **Usability**: Interactive, numbered console menu with clear input prompts and input validation to prevent crashes from invalid types.
-4. **Maintainability**: High cohesion and low coupling through distinct packages (`model`, `service`, `test`).
+1. **Performance**: All lookup and object manipulation operations execute with near-instantaneous console response.
+2. **Reliability & State Integrity**: Object-specific variables are strictly maintained per instance. Object-specific state is never leaked into static fields.
+3. **Usability**: Interactive, numbered console menu with clear input prompts and input validation to prevent crashes from invalid inputs.
+4. **Maintainability**: High cohesion and low coupling through clean package separation (`model`, `service`, `test`).
 5. **Persistence**: Basic file-based archival (`patients.txt`, `appointments.txt`) ensuring data survival across program restarts.
 
 ---
@@ -132,8 +132,8 @@ The project follows a standard 3-Tier Layered Architecture:
       |        |   (4) Assign Doctor to Patient                 |
       +--------+---> (5) Schedule Appointment                   |
       |        |   (6) Update Patient Diagnosis                 |
-      |        |   (7) Generate Patient Summary                 |
-      |        |   (8) Save & Load Data Records                 |
+      |        |   (7) Generate Patient Consultation Summary    |
+      |        |   (8) Save & Load Records                      |
       |        |   (9) Run Automated Validation Tests           |
                |                                                |
                +------------------------------------------------+
@@ -142,27 +142,27 @@ The project follows a standard 3-Tier Layered Architecture:
 ### 7.2 Process Flow / Workflow Diagram
 
 ```text
- [Start]
-    |
-    v
- [Initialize HospitalService & Load Seed Data]
-    |
-    v
+ [Start Application]
+          |
+          v
+ [Initialize HospitalService & Load Pre-Seeded Records]
+          |
+          v
  [Display Main Menu Options (1 to 12)]
-    |
-    +---> 1: Enter Patient Details -----> [Create Patient Object & Add to Registry]
-    |
-    +---> 4: Select Patient & Doctor ---> [patient.assignDoctor(doctor)]
-    |
-    +---> 5: Enter New Diagnosis -------> [patient.setDiagnosis(newDiagnosis)]
-    |
-    +---> 6: Input Appt Date & Slot ----> [Create Appointment Object & Link to Patient]
-    |
-    +---> 8: Request Patient ID --------> [Generate Multi-Relational Summary Report]
-    |
-    +---> 10: Trigger File Save --------> [Write Data to text files]
-    |
-    +---> 0: Exit Program --------------> [Save Session & Terminate]
+          |
+          +---> 1: Enter Patient Details -----> [Create Patient Object & Add to Registry]
+          |
+          +---> 4: Select Patient & Doctor ---> [patient.assignDoctor(doctor)]
+          |
+          +---> 5: Enter New Diagnosis -------> [patient.setDiagnosis(newDiagnosis)]
+          |
+          +---> 6: Input Appt Date & Slot ----> [Create Appointment & Link to Patient]
+          |
+          +---> 8: Request Patient ID --------> [Generate Multi-Relational Summary Report]
+          |
+          +---> 10: Trigger File Save --------> [Write Data to text files]
+          |
+          +---> 0: Exit Program --------------> [Auto-Save Session & Terminate]
 ```
 
 ### 7.3 Class Diagram
@@ -216,7 +216,7 @@ The project follows a standard 3-Tier Layered Architecture:
 +-----------------------------------------------+
 ```
 
-### 7.4 Sequence Diagram (Scheduling Appointment & Generating Summary)
+### 7.4 Sequence Diagram (Scheduling Appointment & Summary Generation)
 
 ```text
 User                  Main               HospitalService          Patient            Appointment
@@ -235,6 +235,36 @@ User                  Main               HospitalService          Patient       
  |                      |                       |                    |-- 10. read appts ->|
  |                      |<-- 11. Formatted Rep -|                    |                    |
  |<-- 12. Display Rep --|                       |                    |                    |
+```
+
+### 7.5 Entity-Relationship & Storage Design (ER Diagram)
+
+```text
++-----------------------+              +-----------------------+
+|        PATIENT        |  1        *  |      APPOINTMENT      |
++-----------------------+--------------+-----------------------+
+| PK  id (PAT-xxx)      |              | PK  appointmentId     |
+|     name              |              | FK  patientId         |
+|     age               |              |     patientName       |
+|     gender            |              | FK  doctorId          |
+|     phone             |              |     date              |
+|     bloodGroup        |              |     timeSlot          |
+|     diagnosis         |              |     status            |
+|     patientType       |              |     purpose           |
+| FK  assignedDoctorId  |              +-----------------------+
++-----------------------+                          *
+            |                                      |
+            | *                                    | 1
+            |          +-----------------------+   |
+            +--------> |        DOCTOR         | <-+
+                     1 +-----------------------+
+                       | PK  id (DOC-xx)       |
+                       |     name              |
+                       |     specialization    |
+                       |     department        |
+                       |     consultationFee   |
+                       |     roomNumber        |
+                       +-----------------------+
 ```
 
 ---
