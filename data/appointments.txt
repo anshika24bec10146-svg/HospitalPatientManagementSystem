@@ -1,0 +1,4 @@
+# APPOINTMENT RECORDS ARCHIVE
+# Format: ApptID,PatientID,PatientName,DoctorName,Date,Slot,Status,Purpose
+APT-501,PAT-101,Rohan Mehta,Rajesh Sharma,2025-04-12,10:00 AM,Scheduled,Cardiac Evaluation
+APT-502,PAT-102,Sneha Gupta,Priya Patel,2025-04-14,02:30 PM,Scheduled,Neurological Review

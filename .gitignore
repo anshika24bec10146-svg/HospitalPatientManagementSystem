@@ -1,0 +1,22 @@
+# Compiled Java Class Files
+*.class
+bin/
+out/
+target/
+
+# IDE Project Files
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS Generated Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary / Scratch Files
+*.tmp
+*.log

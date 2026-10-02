@@ -1,0 +1,5 @@
+# PATIENT RECORDS ARCHIVE
+# Format: ID,Name,Age,Gender,Phone,BloodGroup,Diagnosis,Type,AssignedDoctor
+PAT-101,Rohan Mehta,34,Male,9123456780,B+,Hypertension & Stage 1 Arrhythmia,OPD,Rajesh Sharma
+PAT-102,Sneha Gupta,28,Female,9123456781,O+,Chronic Migraine,OPD,Priya Patel
+PAT-103,Amit Kumar,52,Male,9123456782,A+,Type 2 Diabetes & Routine Checkup,Inpatient,Anand Verma
